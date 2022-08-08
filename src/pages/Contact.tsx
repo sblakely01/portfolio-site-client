@@ -1,9 +1,9 @@
-// src/pages/About.tsx
+// src/pages/Contact.tsx
 
 import React, {ReactElement, FC} from "react";
 import {Box, Typography} from "@mui/material";
 
-const About: FC<any> = (): ReactElement => {
+const Contact: FC<any> = (): ReactElement => {
     return (
         <Box sx={{
             flexGrow: 1,
@@ -12,9 +12,9 @@ const About: FC<any> = (): ReactElement => {
             justifyContent: 'center',
             alignItems: 'center'
         }}>
-            <Typography variant="h3">About</Typography>
+            <Typography variant="h3">Contact</Typography>
         </Box>
     );
 };
 
-export default About;
+export default Contact;

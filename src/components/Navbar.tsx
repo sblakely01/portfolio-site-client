@@ -42,7 +42,7 @@ const Navbar: FC = (): ReactElement => {
               display: { xs: "none", md: "flex" },
             }}
           >
-            Starter App
+            Illusionarium Gaming
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -90,21 +90,21 @@ const Navbar: FC = (): ReactElement => {
             </Menu>
           </Box>
           <Typography
-            variant="h6"
+            variant="h1"
             noWrap
             component="div"
             sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
           >
             React Starter App
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box sx={{ flexGrow: 1, flexDirection: "row-reverse", display: { xs: "none", md: "flex" } }}>
             <Box
               sx={{
                 display: "flex",
-                flexDirection: "row",
-                justifyContent: "flex-start",
+                flexDirection: "row-reverse",
+                justifyContent: "flex-end",
                 alignItems: "center",
-                marginLeft: "1rem",
+                marginRight: "1rem",
               }}
             >
               {routes.map((page) => (

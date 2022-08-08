@@ -16,18 +16,23 @@ function App() {
     
   // define theme
   const theme = createTheme({
+    typography: {
+      h3: {
+        color: 'whitesmoke'
+      }
+    },
     palette: {
       primary: {
-        light: "#63b8ff",
-        main: "#0989e3",
-        dark: "#005db0",
-        contrastText: "#000",
+        main: '#0e0e0e',
+        dark: '#0c0c0c',
+        contrastText: "#FFF",
       },
       secondary: {
-        main: "#4db6ac",
-        light: "#82e9de",
-        dark: "#00867d",
-        contrastText: "#000",
+        main: '#479dde',
+        contrastText: 'rgba(8,8,8,0.87)',
+      },
+      background: {
+        default: '#2d2d2d',
       },
     },
   });
